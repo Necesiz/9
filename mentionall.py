@@ -84,7 +84,7 @@ async def mentionall(event):
     mode = "text_on_reply"
     msg = event.reply_to_msg_id
     if msg == None:
-        return await event.respond("__Kohnə mesajlar ucun kişiləri tagedemirem! (qruba əlavə etmədən öncə gönderilen mesajlar)__")
+        return await event.respond("__Kohnə mesajlar ucun kullanıcları tagedemirem! (qruba əlavə etmədən öncə gönderilen mesajlar)__")
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
     return await event.respond("__Bana bir argüman ver!__")
   else:
