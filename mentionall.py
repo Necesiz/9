@@ -34,31 +34,31 @@ async def cancel(event):
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**AutoTagger🇦🇿**, 💬 Mən sizin qurupunuzda istifadəçiləri çağırmağınız üçün yaradılmış çox funksiyanal botam ★\nDaha fazla məlumat ucun **/komək**'əmrindən isdifadə edin.",
+  await event.reply("**LordTaggerBot🇦🇿**, 💬 Mən sizin qurupunuzda istifadəçiləri çağırmağınız üçün yaradılmış çox funksiyanal botam ★\nDaha fazla məlumat ucun **/komək**'əmrindən isdifadə edin.",
                     buttons=(
                       [
-                         Button.url('➕ MƏNİ QRUPA ƏLAVƏ ET➕ ', 'http://t.me/autotagger_bot?startgroup=a')
+                         Button.url('➕ MƏNİ QRUPA ƏLAVƏ ET➕ ', 'http://t.me/LordTaggerBot?startgroup=a')
                       ],
                       [
-                         Button.url('📣 Kanal', 'https://t.me/HerlockBots'),
-                         Button.url('👮Developer', 'https://t.me/tht_herlock'),
-                         Button.url('🎆 Sahib', 'https://t.me/SakirBey1')
+                         Button.url('📣 Blog Kanal', 'https://t.me/TEAMABASOFX'),
+                         Button.url('Musiqi Bot', 'https://t.me/superstarmusici_bot'),
+                         Button.url('🎆 Sahib', 'https://t.me/TTteamabasof')
                       ]
                     ),
                     link_preview=False
                    )
 @client.on(events.NewMessage(pattern="^/komək$"))
 async def help(event):
-  helptext = "**AutoTagger🇦🇿 Bot'un Komək Menüsü**\n\nƏmir: /utag \n  Bu Əmir, Kᴜʟʟᴀɴıᴄıʟᴀʀı  istdədiyin sözlə bi yerde tag edə bilərsən. /etag  \n emoji ile etiketleme. \n`Məsələn: /utag Salam!`  \nBu əmiri yanıt olaraq tag edə bilərsən. hər hansı bir mesaj Bot, yanıtlanan iletiye kullanıcıları tag edəcək."
+  helptext = "**AutoTagger🇦🇿 Bot'un Komək Menüsü**\n\nƏmir: /utag \n  Bu Əmir, Kᴜʟʟᴀɴıᴄıʟᴀʀı  istdədiyin sözlə bi yerde tag edə bilərsən. /etag  \n emoji ile tag edir. \n`Məsələn: /utag Salam!`  \nBu əmiri yanıt olaraq tag edə bilərsən. hər hansı bir mesaj Bot, yanıtlanan iletiye kullanıcıları tag edəcək./itag  \n cumlə ilə tag edir."
   await event.reply(helptext,
                     buttons=(
                       [
-                         Button.url('➕ MƏNİ QRUPA ƏLAVƏ ET➕', 'http://t.me/autotagger_bot?startgroup=a')
+                         Button.url('➕ MƏNİ QRUPA ƏLAVƏ ET➕', 'http://t.me/LorfTaggerBot?startgroup=a')
                       ],
                       [
-                         Button.url('📣 Kanal', 'https://t.me/HerlockBots'),
-                         Button.url('👮Developer', 'https://t.me/tht_herlock'),
-                         Button.url('🎆 Sahib', 'https://t.me/SakirBey1')
+                         Button.url('📣 Blog Kanal', 'https://t.me/TEAMABASOFX'),
+                         Button.url('Musiqi Bot', 'https://t.me/superstarmusici_bot'),
+                         Button.url('🎆 Sahib', 'https://t.me/TTteamabasof')
                       ]
                     ),
                     link_preview=False
