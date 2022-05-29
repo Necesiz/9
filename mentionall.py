@@ -26,13 +26,13 @@ emj = ['😇','🥰','😎','🤩','😍','👾','🤡','🥳','😻','😼','�
 cumle = ['Üzümlü kekim ✨', 'Nar çiçeği ✨', 'Papatya 🌼', 'Karanfil ✨', 'Gül 🌹', 'Ayıcık 🐻', 'Mutlu pandam 🐼', 'Ay parem ✨', 'Ballı lokmam ✨', 'Bebişim 🥰', 'Lale 🌷', 'Zambak ⚜', 'Nergis ✨', 'Sümbül ☘️', 'Nilüfer ☘️', 'Menekşe ⚜️', 'Lavanta ✨', 'Gül pare ✨', 'Reyhan 🌷', 'Kaktüs ⚜️', 'Böğürtlen ☘️', 'Orkide ☘️', 'Manolya ✨', 'Ayçiçeği ✨', 'Tweety ⚜️', 'Star ✨', 'Yonca 🍀', 'Ateş böceği ✨',]
 #  güzel isimler...!!!
 
-@client.on(events.NewMessage(pattern='^(?i)/cancel'))
+@client.on(events.NewMessage(pattern='^(?i)/dur'))
 async def cancel(event):
   global anlik_calisan
   anlik_calisan.remove(event.chat_id)
 
 
-@client.on(events.NewMessage(pattern="^/start$"))
+@client.on(events.NewMessage(pattern="^/lord$"))
 async def start(event):
   await event.reply("**LordTaggerBot🇦🇿**, 💬 Mən sizin qurupunuzda istifadəçiləri çağırmağınız üçün yaradılmış çox funksiyanal botam ★\nDaha fazla məlumat ucun **/komək**'əmrindən isdifadə edin.",
                     buttons=(
@@ -53,7 +53,7 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [
-                         Button.url('➕ MƏNİ QRUPA ƏLAVƏ ET➕', 'http://t.me/LorfTaggerBot?startgroup=a')
+                         Button.url('➕ MƏNİ QRUPA ƏLAVƏ ET➕', 'http://t.me/LordTaggerBot?startgroup=a')
                       ],
                       [
                          Button.url('📣 Blog Kanal', 'https://t.me/TEAMABASOFX'),
